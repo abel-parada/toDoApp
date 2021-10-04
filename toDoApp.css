@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none;
+}
+
+body {
+  background-color: beige;
+}
+
+.container {
+  width: 500px;
+  background-color: lightgrey;
+  margin: 50px auto;
+  padding: 25px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+input {
+  margin: 0 10px;
+}
+
+button {
+  background-color: lime;
+  padding: 0 20px;
+}
