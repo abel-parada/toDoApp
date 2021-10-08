@@ -30,3 +30,7 @@ button {
   border-radius: 5px;
   font-family: "Roboto", sans-serif;
 }
+
+#edittask {
+  display: none;
+}
