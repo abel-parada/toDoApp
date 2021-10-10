@@ -60,7 +60,7 @@ let itemsArray= localStorage.getItem('items') ? JSON.parse(localStorage.getItem(
             //now we append it in the ul by calling the function
             makeList(newTask.value);
             
-            newTask.value= " ";
+            newTask.value= " ";// this empties my input after each written task
         });
 
         data.forEach(item => {
